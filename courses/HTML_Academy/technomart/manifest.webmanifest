@@ -1,0 +1,10 @@
+{
+    "name": "Technomart",
+    "icons": [
+      { "src": "img/icon/favicon16.png", "type": "image/icon", "sizes": "16x16" },
+      { "src": "img/icon/favicon32.png", "type": "image/icon", "sizes": "32x32" },
+      { "src": "img/icon/favicon152.png", "type": "image/icon", "sizes": "152x152" },
+      { "src": "img/icon/favicon192.png", "type": "image/icon", "sizes": "192x192" },
+      { "src": "img/icon/favicon512.png", "type": "image/icon", "sizes": "512x512" }
+    ]
+  }

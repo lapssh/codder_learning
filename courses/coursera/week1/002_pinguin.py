@@ -1,0 +1,6 @@
+pinguin_count = int(input())
+print('   _~_    ' * pinguin_count)
+print('  (o o)   ' * pinguin_count)
+print(' /  V  \\  ' * pinguin_count)
+print('/(  _  )\\ ' * pinguin_count)
+print('  ^^ ^^   ' * pinguin_count)

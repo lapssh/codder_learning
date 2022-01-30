@@ -1,0 +1,10 @@
+django
+djangorestframework
+django-rest-passwordreset
+pyyaml
+ujson
+requests
+Celery
+redis
+celery [redis]
+uritemplate

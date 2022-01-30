@@ -1,0 +1,58 @@
+shop: М-Видео
+categories:
+  - id: 1
+    name: Телефоны
+  - id: 2
+    name: Аксессуары
+  - id: 3
+    name: Flash-накопители
+
+goods:
+  - id: 5216292
+    category: 1
+    model: xiaomi/redmi/9
+    name: Смартфон Xiaomi Redmi 9 4/64GB (NFC)
+    price: 11359
+    price_rrc: 13000
+    quantity: 24
+    parameters:
+      "Диагональ (дюйм)": 6.53
+      "Разрешение (пикс)": 2340x1080
+      "Встроенная память (Гб)": 64
+      "Цвет": чёрный
+  - id: 5216313
+    category: 1
+    model: xiaomi/redmi/9pro
+    name: Смартфон Xiaomi Redmi Note 9 Pro 6/128GB
+    price: 20000
+    price_rrc: 21500
+    quantity: 90
+    parameters:
+      "Диагональ (дюйм)": 6.67
+      "Разрешение (пикс)": 2400x1080
+      "Встроенная память (Гб)": 128
+      "Цвет": зелёный
+  - id: 5216226
+    category: 1
+    model: xiaomi/mi/10lite
+    name: Смартфон Xiaomi Mi 10 Lite 6/128GB
+    price: 21500
+    price_rrc: 24400
+    quantity: 15
+    parameters:
+      "Диагональ (дюйм)": 6.57
+      "Разрешение (пикс)": 2400x1080
+      "Встроенная память (Гб)": 128
+      "Цвет": серый космос
+  - id: 5672670
+    category: 1
+    model: xiaomi/poco/f2pro
+    name: Смартфон Xiaomi Poco F2 Pro 6/128GB
+    price: 25000
+    price_rrc: 29800
+    quantity: 17
+    parameters:
+      "Диагональ (дюйм)": 6.67
+      "Разрешение (пикс)": 2400x1080
+      "Встроенная память (Гб)": 128
+      "Цвет": синий

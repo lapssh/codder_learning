@@ -1,0 +1,278 @@
+@font-face {
+  font-family: "PT sans";
+  src: local("PT sans"),
+       url("ptsans.woff2") format("woff2"),
+       url("ptsans.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+header {
+  background-image: url(../img/header-background.png);
+}
+.menu-top {
+  font-family: Cuprum;
+  font-size: 18px;
+  line-height: 24px;
+
+  color: #f1f5f7;
+  height: 42px;
+  background-color: #293449;
+}
+
+.italic {
+  font-family: Cuprum;
+  font-size: 16px;
+  line-height: 23px;
+  font-style: italic;
+  color: #ee3643;
+}
+
+.tel-number {
+  text-decoration: none;
+  font-style: normal;
+  width: 270px;
+  height: 45px;
+  border: 3px solid #ffffff;
+  font-family: "Cuprum";
+  font-weight: 700;
+  color: #ee3643;
+}
+
+/* BUTTONS */
+.lk-button {
+  font-family: Cuprum;
+  font-size: 21px;
+  line-height: 21px;
+  height: 45px;
+  color: black;
+  text-align: center;
+  background-color: white;
+  border: 0;
+}
+
+.main-button {
+   width: 192px;
+   height: 38px;
+   background-color: #ee3643;
+   color: #ffffff;
+   font-family: "Cuprum";
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 18px;
+   text-align: center;
+   text-transform: uppercase;
+}
+
+.menu-top a {
+  text-decoration: none;
+  color: #f1f5f7;
+}
+
+.address-top {
+  font-style: normal;
+  font-family: "Cuprum";
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #32425c;
+}
+
+.headline {
+  width: 940px;
+  height: 89px;
+  background-color: #f9f5f0;
+}
+
+h2 {
+  font-family: "Cuprum";
+  font-size: 30px;
+  line-height: 30px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+ul {
+  list-style: none;
+}
+
+/* = = = C A T A L O G = = = */
+.catalog-list li {
+    width: 300px;
+    height: 123px;
+    color: #ffffff;
+    font-family: "Cuprum";
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+    /* background-color: black; */
+}
+
+.catalog-card {
+  width: 220px;
+  height: 318px;
+  font-family: "PT sans";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  background-color: #ffffff;
+  border: 1px solid #eaeaea;
+  text-align: center;
+}
+
+.catalog-card del {
+  color: #a9a9a9;
+}
+
+.catalog-card-button {
+  width: 141px;
+  height: 38;
+  color: white;
+  background-color: #ee3643;
+}
+
+.catalog-gallery {
+
+}
+
+.gallery {
+
+}
+
+.materials {
+  background-color: #ffbf47;
+}
+
+.tools {
+  background-color: #3bbce3;
+}
+
+.technics {
+  background-color: #dc91d8;
+}
+
+/* .button-catalog-item {
+  width: 135px;
+  height: 38px;
+  background-color: #ffffff;
+  /* opacity: 0.3; */
+
+
+.button-catalog-text {
+  width: 135px;
+  height: 38px;
+  background-color: rgba(255, 255, 255, 0.3);
+  text-transform: uppercase;
+  font-family: "Cuprum";
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+  border: 0;
+}
+
+/*   B r a n d s   */
+
+.brand-card {
+  text-align: center;
+  width: 220px;
+  height: 145px;
+  background-color: #ffffff;
+  border: 1px solid #eaeaea;
+}
+
+.brand-card img {
+  vertical-align: middle;
+}
+
+/* = = = = = = = = = = = = = = */
+
+/*   S e r v i c e s   */
+.services {
+  background-color: #f1f5f7;
+}
+
+.services a {
+  text-decoration: none;
+}
+
+/*   About Company   */
+
+.about {
+  font-family: "Cuprum";
+}
+
+.about h2 {
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.about-text {
+  font-family: "PT sans";
+  font-size: 13px;
+  line-height: 24px;
+}
+
+.li-marker {
+  width: 25px;
+  height: 2px;
+  background-color: #ee3643;
+}
+
+.transport-company  {
+  font-family: "Cuprum";
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.map-button {
+  width: 300px;
+}
+
+/*   F O O T E R   */
+footer {
+  background-color: #32425c;
+}
+.logo-footer {
+  width: 220px;
+  height: 68px;
+  background-color: #ee3643;
+  text-align: center;
+}
+
+.address-footer {
+  font-family: "Cuprum";
+  font-size: 18px;
+  line-height: 24px;
+  font-style: normal;
+  color: #ffffff;
+}
+
+.bottom-nav a {
+  text-decoration: none;
+  font-family: "Cuprum";
+  font-size: 18px;
+  line-height: 24px;
+  font-style: normal;
+  color: #ffffff;
+}
+
+.bottom-panel {
+  background-color: #293449;
+  font-family: "Cuprum";
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.bottom-panel a {
+  font-family: "Cuprum";
+  font-size: 18px;
+  line-height: 24px;
+  font-style: normal;
+  color: #ffd180;
+  text-decoration: none;
+}
+
+.socials {
+  background-image: url(img/icon/icon-circle-bg.svg);
+}
