@@ -23,20 +23,25 @@ Explanation: There are no elements to the right of index 0.
 from typing import List
 
 
+# class Solution:
+#     def replaceElements(self, arr: List[int]) -> List[int]:
+#         for i in range(0, len(arr)-1):
+#                 arr[i] = max(arr[i+1:])
+#         arr[-1] = -1
+#         return arr
+
 class Solution:
-    def replaceElements(self, arr: List[int]) -> List[int]:
-        idx = 0
-        while idx < len(arr):
-            max_item = arr[-1]
-            for i in range(len(arr) - 1, idx, -1):
-                print(f'{max_item=}  {i=} {idx=}')
-                if max_item < arr[i]:
-                    max_item = arr[i]
-            print()
-            arr[idx] = max_item
-            idx += 1
-        arr[-1] = -1
-        return arr
+        def replaceElements(self, arr: List[int]) -> List[int]:
+                currMax = -1
+                for idx in range(len(arr) - 1, -1, -1):
+                        # Store value of current element in a temp variable
+                        tempVal = arr[idx]
+                        # Assign currentMax to arr[idx] (current element)
+                        arr[idx] = currMax
+                        # Update max value
+                        currMax = max(currMax, tempVal)
+
+                return arr
 
 
 # arr = [17, 18, 5, 4, 6, 1]
