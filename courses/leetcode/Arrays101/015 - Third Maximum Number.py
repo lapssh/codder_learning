@@ -46,3 +46,14 @@ nums = [2, 2, 3, 1]
 # nums = [3, 2, 1]
 a = Solution()
 print(a.thirdMax(nums))
+
+'''
+nice
+def thirdMax(self, nums):
+        nums = set(nums)
+        if len(nums) < 3:
+            return max(nums)
+        nums.remove(max(nums))
+        nums.remove(max(nums))
+        return max(nums)
+'''
